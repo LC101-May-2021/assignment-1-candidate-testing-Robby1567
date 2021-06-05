@@ -10,7 +10,7 @@ let correctAnswer = 2;
 let candidateAnswer = Number(question);
 let questions = ["What is 1 + 1?: ", "What is 2 + 2?: ", "4 + 4?: ", "5 + 5?: ", "10 + 10?: "];
 let correctAnswers = [2, 4, 8, 10, 20];
-
+let candidateAnswers = ("");
 
  //for ( i = 0; i < 5; i++) {
   //  let candidateAnswers = Number`${input.question(questions[i])}`;
