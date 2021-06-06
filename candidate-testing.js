@@ -21,7 +21,6 @@ function askForName() {
 
 function askQuestion() {
   // TODO 1.2b: Ask candidate the question and assign the response as candidateAnswer //
-  //let candidateAnswers = []
  for ( i = 0; i < 5; i++) {
     let answers = input.question(questions[i]);
     console.log("Your answer:",answers);
@@ -38,7 +37,7 @@ function askQuestion() {
 function gradeQuiz(candidateAnswers) {
   let numOfCorrect = 0;
   for ( i = 0; i < candidateAnswers.length; i++) {
-    if (candidateAnswers[i] === correctAnswers[i]) {
+    if (candidateAnswers[i].toLowerCase() == correctAnswers[i].toLowerCase()) {
      numOfCorrect++;
      
       }
